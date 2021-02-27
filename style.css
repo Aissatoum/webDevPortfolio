@@ -299,14 +299,19 @@ section .title::after{
     
   }
   .flex{
+    position: relative;
    width:48%;
-   height:99vh;
+   height:790px;
     box-shadow:1px 1px 4px 1px grey;
     margin: 10px;
     /* margin:10px auto; */
       padding:10px;
       border-top-right-radius: 30px;
       border-bottom-left-radius: 55px;
+  }
+  .cardbutns{
+    position: absolute;
+     bottom: 20px;
   }
   .flex img{
   width:100%;
@@ -327,6 +332,7 @@ section .title::after{
   .flex p{
       padding: 15px;
       width: 80%;
+      margin: 0 auto;
       
   }
   
